@@ -2,10 +2,6 @@ import cv2
 import numpy as np
 print("YOLO OBJECT DETECTION MODEL \n ")
 
-print("written by Shiva Sai Sankoju \n")
-
-print("loading...................")
-
 # Load Yolo
 net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = []
